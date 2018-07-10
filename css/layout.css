@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+}
+.ios_left-side {
+  width: 45%;
+  background-color: pink;
+  float: left;
+}
+.ios_right-side {
+  width: 55%;
+  background-color: yellow;
+  float: right;
+}
