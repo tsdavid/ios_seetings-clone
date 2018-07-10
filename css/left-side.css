@@ -1,0 +1,13 @@
+body {
+  width: 100%;
+}
+.ios_left-side {
+  width: 45%;
+  background-color: #f0eff5;
+  float: left;
+}
+.left_menu_top-bar,
+.left_menu_title,
+.left_menu_list {
+  background-color: white;
+}
