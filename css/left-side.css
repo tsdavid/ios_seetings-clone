@@ -5,9 +5,196 @@ body {
   width: 45%;
   background-color: #f0eff5;
   float: left;
+  border-right: 1px solid #8e8e93;
 }
 .left_menu_top-bar,
 .left_menu_title,
-.left_menu_list {
+.left_menu_list,
+.left_menu_top-search-section,
+.left_menu_user-info,
+.left_menu_top-search-section {
   background-color: white;
+}
+.left_menu_top-bar {
+  display: flex;
+}
+.left_menu_top-bar p,
+.left_menu_top-bar i {
+  padding-left: 7px;
+  padding-top: 7px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.left_menu_title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+}
+.left_menu_top-search-section {
+  padding-bottom: 15px;
+  border-bottom: 1px solid #c8c7cc;
+}
+.search_all_menu {
+  background-color: #f0eff5;
+  border-radius: 5px;
+  padding-right: 100px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 35px;
+  border: none;
+  margin-left: 13px;
+}
+.fa-search {
+  position: absolute;
+  top: 106px;
+  left: 22px;
+  color: gray;
+}
+.left_menu_user-info {
+  margin: 30px 0;
+}
+.left_menu_user-info {
+  width: 100%;
+  display: flex;
+  padding: 9px 0;
+  border-top: 1px solid #c8c7cc;
+  border-bottom: 1px solid #c8c7cc;
+}
+.user_name-icon {
+  padding: 13px;
+  background: #c7c7cc;
+  color: white;
+  font-size: 28px;
+  border-radius: 50%;
+  margin-left: 15px;
+  width: 62.5px;
+  height: 60px;
+}
+.user_name_info_wrap {
+  display: flex;
+  flex-direction: column;
+  padding-left: 14px;
+}
+.user_name-full {
+  font-size: 23px;
+  font-weight: 500;
+  padding-bottom: 8px;
+  margin-top: 3px;
+}
+.user_info-list {
+  font-size: 12px;
+  font-weight: 500;
+}
+.left_menu_list-contain {
+  display: flex;
+  padding-bottom: 10px;
+}
+.left_menu_list-contain:first-child {
+  padding-top: 10px;
+  border-top: 1px solid #e4e4e6;
+}
+.left_menu_list-contain:last-child {
+  padding-bottom: 0;
+  border-bottom: 1px solid #e6e5ea;
+}
+.left_menu_list-contain i,
+.left_menu_list-contain .left_menu_list-title {
+  font-size: 16px;
+  padding: 8px 0 15px 0;
+}
+.left_menu_list-contain .left_menu_list-title {
+  width: 100%;
+  border-bottom: 1px solid #e8e8e8;
+  margin-left: 65px;
+  font-weight: 600;
+}
+.left_menu_list-contain .list-title-last {
+  border-bottom: 0;
+}
+.left_menu_list-contain .left_menu_list-contribute {
+  border-bottom: 1px solid #e8e8e8;
+}
+.left_menu_list-contain .left_menu_list-contribute {
+  padding-right: 15px;
+  color: #919193;
+}
+.left_menu_list-contain i {
+  margin-left: 7px;
+  margin-right: 14px;
+}
+.left_menu_list {
+  margin-bottom: 30px;
+}
+.left_menu_list-contain i {
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  border-radius: 8px;
+  position: absolute;
+}
+.left_menu_list-contain .fa-plane {
+  background-color: #ff9200;
+  color: white;
+}
+.left_menu_list-contain .fa-wifi {
+  color: white;
+  background-color: #0080ff;
+}
+.left_menu_list-contain .fa-bluetooth-b {
+  color: white;
+  background-color: #0080ff;
+}
+.left_menu_list-contain .fa-apple {
+  color: white;
+  background-color: #52d959;
+}
+.left_menu_list-contain .fa-link {
+  color: white;
+  background-color: #52d959;
+}
+.left_menu_list-contain .fa-square {
+  color: white;
+  background-color: #fd3d28;
+}
+.left_menu_list-contain .fa-toggle-on {
+  color: white;
+  background-color: #848389;
+}
+.left_menu_list-contain .fa-moon {
+  color: white;
+  background-color: #5459cf;
+}
+.left_menu_list-contain .fa-cogs {
+  color: white;
+  background-color: #8d8c91;
+}
+.left_menu_list-contain .fa-autoprefixer {
+  color: white;
+  background-color: #0976f5;
+}
+.left_menu_list-contain .fa-volume-up {
+  color: white;
+  background-color: #ff2d53;
+}
+.left_menu_list-contain .fa-broadcast-tower {
+  color: white;
+  background-color: #252339;
+}
+.left_menu_list-contain .fa-lock {
+  color: white;
+  background-color: #ff2658;
+}
+.left_menu_list-contain .fa-battery-full {
+  color: white;
+  background-color: #50db5e;
+}
+.left_menu_list-contain .fa-hand-paper {
+  color: white;
+  background-color: #0a7eff;
+}
+.left_menu_list-contain .fa-itunes {
+  color: white;
+  background-color: #0a7eff;
 }

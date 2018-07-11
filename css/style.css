@@ -2,3 +2,7 @@
 @import "reset.css";
 @import "left-side.css";
 @import "right-side.css";
+
+html {
+  background: #f0eff5;
+}
